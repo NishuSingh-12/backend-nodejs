@@ -1,0 +1,9 @@
+Types of Path
+(1) Absolute Path 
+C:\Users\admin\Desktop\Node-js\Section-3\10_File_System\text.txt
+
+(2) Relative Path
+ src\text.js
+ .\src\text.js
+
+  

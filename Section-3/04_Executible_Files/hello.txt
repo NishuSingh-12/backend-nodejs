@@ -1,0 +1,4 @@
+pwd
+Types of Executible files
+(1) Script Executible files
+(2) Binary Executible files

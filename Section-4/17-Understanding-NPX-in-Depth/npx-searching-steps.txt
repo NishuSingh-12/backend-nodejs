@@ -1,0 +1,20 @@
+step-1
+    Searches for package.json in current working directory.
+    Searches for name key in json
+    Searches for bin key in json
+
+step-2(If package.json file not found) 
+    Searches for node_modules\.bin\file in current working directory
+    and excutes this file.
+
+step-3
+    Searches for package in global npm folder and executes this file.
+
+step-4
+    Searche for package in npm cache and executes this file
+
+step-5
+    Searche for package in npm registry
+    Prompts to install the package if found
+    Downloads and installs
+

@@ -1,0 +1,10 @@
+{
+  "name": "nishu-word-counter-cli",
+  "version": "1.0.2",
+  "main": "index.js",
+  "bin": {
+    "word-counter": "index.js"
+  },
+  "author": "Nishu singh",
+  "type": "module"
+}

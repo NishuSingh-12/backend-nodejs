@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "nishu-first-module": "^1.0.1"
+  }
+}

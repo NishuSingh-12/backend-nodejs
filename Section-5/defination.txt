@@ -1,0 +1,3 @@
+What is Data Representation in Computing?
+=> It means how data is stored and processed inside a computer using binary (0s and 1s).
+=> Computers understand only binary (0 and 1), so all types of data must be converted into this form.

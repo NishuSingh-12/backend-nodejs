@@ -1,0 +1,9 @@
+{
+  "name": "copy-move-cli",
+  "version": "1.0.0",
+  "bin": {
+    "copy": "./index.js"
+  },
+  "author": "Nishu singh",
+  "type": "module"
+}

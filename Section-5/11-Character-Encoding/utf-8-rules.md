@@ -1,0 +1,15 @@
+## For 1 Byte character
+
+0xxxxxxx
+
+## For 2 Bytes character
+
+110xxxxx 10xxxxxx
+
+## For 3 Bytes character
+
+1110xxxx 10xxxxxx 10xxxxxx
+
+## For 4 Bytes character
+
+11110xxx 10xxxxxx 10xxxxxx 10xxxxxx

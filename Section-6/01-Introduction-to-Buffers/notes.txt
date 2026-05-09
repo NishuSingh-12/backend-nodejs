@@ -1,0 +1,78 @@
+Introduction to Buffers
+🔹 What is a Buffer in Node.js?
+
+👉 A Buffer is a temporary memory area used to store binary data.
+
+👉 Node.js uses buffers because:
+
+files
+streams
+network data
+
+work with binary data instead of normal text.
+
+🔹 Why Buffers are Needed?
+
+JavaScript normally works with:
+
+strings, numbers, objects
+
+But computers and networks handle:
+
+binary data (0s and 1s)
+
+👉 Buffers help Node.js handle binary data efficiently.
+
+🔹 Creating a Buffer
+1. From String
+const buffer = Buffer.from("Hello");
+
+console.log(buffer);
+
+Output:
+
+<Buffer 48 65 6c 6c 6f>
+2. Fixed Size Buffer
+const buffer = Buffer.alloc(4);
+
+console.log(buffer);
+
+Output:
+
+<Buffer 00 00 00 00>
+🔹 Convert Buffer to String
+const buffer = Buffer.from("Hello");
+
+console.log(buffer.toString());
+
+Output:
+
+Hello
+🔹 Access Buffer Values
+const buffer = Buffer.from("ABC");
+
+console.log(buffer[0]);
+
+Output:
+
+65
+
+👉 65 is ASCII value of A
+
+🔹 Common Uses of Buffers
+File system 📂
+Streams 🌊
+TCP/HTTP data 🌐
+Image/video processing 🎥
+🔹 Important Methods
+Method	Use
+Buffer.from()	Create buffer
+Buffer.alloc()	Allocate memory
+toString()	Convert to string
+
+“A buffer in Node.js is a temporary memory area used to store and manipulate binary data.”
+
+🧠 Simple summary:
+
+👉 Buffer = binary data container in memory
+👉 used for files, streams, and networking

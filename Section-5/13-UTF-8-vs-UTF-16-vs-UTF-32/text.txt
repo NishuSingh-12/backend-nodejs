@@ -1,0 +1,5 @@
+ Main Difference
+Encoding	Bytes Used	Advantage	Disadvantage
+UTF-8	1–4 bytes	Memory efficient, web standard	Variable length
+UTF-16	2 or 4 bytes	Good for many languages	Less efficient for English
+UTF-32	4 bytes	Fixed length, simple	High memory usage

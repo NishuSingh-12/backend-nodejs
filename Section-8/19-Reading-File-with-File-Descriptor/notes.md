@@ -220,3 +220,6 @@ fs.close()
 OS-level identifier for open files
 
 🚀
+Interview Definition
+
+“Reading files with file descriptors involves manually opening a file, obtaining its descriptor, reading bytes into a buffer, and then closing the descriptor.”

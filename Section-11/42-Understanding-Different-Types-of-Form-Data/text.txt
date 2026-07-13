@@ -1,0 +1,24 @@
+1. application/x-www-form-urlencoded
+user=Nishu+Singh&email=nishug@gmail.com&profilePic=num.txt.txt
+
+2.multipart/form-data
+multipart/form-data; boundary=----WebKitFormBoundary7CZr9A1VK8y8oZBH
+------WebKitFormBoundary7CZr9A1VK8y8oZBH
+Content-Disposition: form-data; name="user"
+
+Nishu Singh
+------WebKitFormBoundary7CZr9A1VK8y8oZBH
+Content-Disposition: form-data; name="email"
+
+nishug@gmail.com
+------WebKitFormBoundary7CZr9A1VK8y8oZBH
+Content-Disposition: form-data; name="profilePic"; filename="num.txt.txt"
+Content-Type: text/plain
+
+0123456789
+------WebKitFormBoundary7CZr9A1VK8y8oZBH--
+
+3.text/plain
+user=Nishu Singh
+email=nishug@gmail.com
+profilePic=num.txt.txt

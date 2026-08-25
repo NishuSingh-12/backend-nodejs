@@ -1,0 +1,2 @@
+Redis Write: 1.24ms
+MongoDB Write: 2.825ms
